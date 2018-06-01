@@ -1,0 +1,106 @@
+body {margin: 0px; padding: 0px; width: 100%;/*font-family: 'AvenirNextLTPro-Regular';*/}
+html, body { padding: 0; margin: 0;height: 100%}
+img { border: none; outline: none; }
+:-moz-any-link {
+ outline: none;
+}
+:-moz-any-link:hover {
+ outline: none;
+}
+:-moz-any-link:focus {
+ outline: none;
+}
+::selection { background: #002e5f; color: #fff; }
+::-moz-selection {
+ background: #002e5f;
+ color: #fff;
+}
+::-webkit-selection {
+ background: #002e5f;
+ color: #fff;
+}
+a ,button{ text-decoration: none; border: none; outline: none; transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:focus { text-decoration: none; }
+input, button, textarea, select { outline: none; -webkit-appearance: none; }
+* { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; }
+* {-webkit-appearance: none;-moz--appearance: none;appearance: none;outline: none;}
+::-webkit-input-placeholder {
+ color: #adadad!important;
+ opacity: 1;
+ filter: alpha(opacity=100);
+}
+:-moz-placeholder {
+ color: #adadad!important;
+ opacity: 1;
+ filter: alpha(opacity=100);
+}
+::-moz-placeholder {
+ color: #adadad!important;
+ opacity: 1;
+ filter: alpha(opacity=100);
+}
+:-ms-input-placeholder {
+ color: #adadad!important;
+ opacity: 1;
+ filter: alpha(opacity=100);
+}
+.form-control:focus{boder:transparent;box-shadow: none;}
+img { max-width: 100%; }
+ul, li { list-style: none; padding: 0; margin: 0; }
+a{color: #1870ae;}
+a:hover{color:#16659c;}
+/*@font-face { font-family: 'Glyphicons Halflings'; src: url(../fonts/glyphicons-halflings-regular.eot); src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(../fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(../fonts/glyphicons-halflings-regular.woff) format('woff'), url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg') }
+.container{width: 960px; margin: 0 auto;}
+table, tbody, td, tfoot, th, thead, time, tr{margin: 0;padding: 0;border: 0;font-size: 100%;font-weight: 400;vertical-align: middle;}*/
+
+/*@font-face {
+  font-family: 'AvenirNextLTPro-Regular';
+  src: url('../fonts/AvenirNextLTPro-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/AvenirNextLTPro-Regular.otf')  format('opentype'),
+         url(../fonts/'AvenirNextLTPro-Regular.woff') format('woff'), url('../fonts/AvenirNextLTPro-Regular.ttf')  format('truetype'), url('../fonts/AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}*/
+.main-wapper{margin: 50px 0 0 ;}
+.main-wapper .col-md-7{background: #0d0454;}
+.main-wapper .col-md-5{background: #a1bfbd;text-align: center;}
+.main-wapper .col-md-7 .col-md-6{margin: 70px auto 50px;}
+
+.top-menu form {
+    width: 100%;
+    font-size: 11px;
+}
+.top-menu .input-group{justify-content: center; margin-bottom: 50px;}
+.top-menu form input {
+    padding: 5px 34px 5px 15px;
+    border-radius: 0;
+    outline: none;
+    border: none;
+    font-size: 11px;
+    min-height: 30px;color: #fff!important;
+    background: #5b548a!important;
+    
+}
+.top-menu form .input-group-addon {
+    color: #fff;
+    background: transparent!important;
+    position: absolute;
+    right: 10px;
+    font-size: 18px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 99;
+    cursor: pointer;
+}
+
+.main-wapper p{font-size: 16px;color: #fff;margin-bottom: 15px;float: left;width: 100%;}
+.main-wapper span{font-size: 14px;color: #fff;margin-bottom: 15px;display: block;float: left;width: 100%;}
+
+.btn-sec{display: block;margin: 10px 0 25px;float: left;width: 100%;}
+.btn-sec button{font-size: 15px;color: #fff;background: #7371ad;padding: 8px 15px;border-radius: 5px;cursor: pointer;}
+.btn-sec button:hover{background: #67669d;}
+.inner-item{display: flex;align-content: center;flex-wrap: wrap;}
